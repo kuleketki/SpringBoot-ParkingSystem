@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="ParkIt/src/main/java"/>
+	<classpathentry kind="src" path="ParkIt/src/test/java"/>
+	<classpathentry kind="lib" path="ParkIt/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="ParkIt/bin/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="output" path="ParkIt/target/classes"/>
+</classpath>

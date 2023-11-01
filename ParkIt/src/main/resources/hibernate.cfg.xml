@@ -1,0 +1,31 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+	<session-factory>
+
+		<!-- JDBC Database connection settings -->
+		<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://127.0.0.1:3306/parkIT</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">root</property>
+		<!-- Select our SQL dialect -->
+		<property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+
+		<!-- Echo the SQL to stdout -->
+		<property name="show_sql">true</property>
+
+		<!-- Drop and re-create the database schema on startup -->
+		<!--  <property name="hbm2ddl.auto">update</property> -->
+		<property name="hibernate.hbm2ddl.auto">update</property>
+
+
+		<mapping class="in.ketkikule.webtools.ParkIt.model.User" />
+		<mapping class="in.ketkikule.webtools.ParkIt.model.ParkingSpace" />
+		<mapping class="in.ketkikule.webtools.ParkIt.model.Booking" />
+
+	</session-factory>
+
+</hibernate-configuration>
