@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/row_padding">
+
+    <TextView
+        android:id="@+id/tvListId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:text="text1"
+        android:layout_weight="1"
+        android:textColor="@color/default_text_color"/>
+
+    <TextView
+        android:id="@+id/tvItemId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:text="text2"
+        android:layout_weight="1"
+        android:textColor="@color/default_text_color"/>
+
+
+    <TextView
+        android:id="@+id/tvItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:text="text3"
+        android:layout_weight="1"
+        android:textColor="@color/default_text_color"/>
+
+</LinearLayout>
