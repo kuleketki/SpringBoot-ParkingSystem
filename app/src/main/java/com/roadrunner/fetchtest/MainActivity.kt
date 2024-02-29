@@ -13,7 +13,6 @@ import com.roadrunner.fetchtest.databinding.ActivityMainBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import java.io.IOException
 
 const val TAG = "MainActivity"
 // MainActivity.kt
